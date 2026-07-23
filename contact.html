@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Order — Nish Bakes</title>
+<meta name="description" content="Get in touch with Nish Bakes to place your custom cake order, or find our location and Instagram.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">Nish Bakes<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-outline">Order Now</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Get In Touch</span>
+    <h1>Let's plan your cake</h1>
+    <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+  </div>
+</section>
+
+<section>
+  <div class="container contact-wrap">
+
+    <!-- Order / Contact form -->
+    <div class="reveal" id="order-form">
+      <h2>Place an order or ask a question</h2>
+      <p>Fill in the details below and we'll confirm your order within 24 hours.</p>
+
+      <form id="contactForm" novalidate>
+        <div class="form-field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Your name">
+          <span class="form-note" data-note-for="name"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+          <span class="form-note" data-note-for="email"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+        </div>
+
+        <div class="form-field">
+          <label for="cakeType">What are you ordering?</label>
+          <select id="cakeType" name="cakeType">
+            <option>Celebration Cake</option>
+            <option>Custom / Tiered Cake</option>
+            <option>Cupcakes</option>
+            <option>Dessert Jars</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="date">Date needed</label>
+          <input type="date" id="date" name="date">
+        </div>
+
+        <div class="form-field">
+          <label for="message">Tell us more</label>
+          <textarea id="message" name="message" placeholder="Flavour, size, colours, occasion..."></textarea>
+          <span class="form-note" data-note-for="message"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Send Order Request →</button>
+        <div id="formStatus"></div>
+      </form>
+    </div>
+
+    <!-- Contact info + map -->
+    <div class="reveal">
+      <div class="contact-info-card">
+        <div class="row">
+          <span class="ic">📍</span>
+          <div><strong>Bakery Address</strong><span>12 Bandra Bakers Lane, Mumbai, MH 400050</span></div>
+        </div>
+        <div class="row">
+          <span class="ic">📞</span>
+          <div><strong>Phone</strong><span>+91 98765 43210</span></div>
+        </div>
+        <div class="row">
+          <span class="ic">✉️</span>
+          <div><strong>Email</strong><span>hello@nishbakes.com</span></div>
+        </div>
+        <div class="row">
+          <span class="ic">🕒</span>
+          <div><strong>Hours</strong><span>Tue–Sun · 10:00 AM – 8:00 PM</span></div>
+        </div>
+        <div class="row">
+          <span class="ic">📷</span>
+          <div><strong>Instagram</strong><span><a href="https://instagram.com/nishbakes" target="_blank" rel="noopener" style="color:var(--pink-deep); font-weight:600;">@nishbakes</a></span></div>
+        </div>
+      </div>
+
+      <!-- Google Maps placeholder -->
+      <div class="map-box">
+        <span class="map-pin">📍</span>
+        <span class="map-label">Google Maps — embed goes here</span>
+      </div>
+      <p style="font-size:.78rem; margin-top:10px;">Replace the box above with an embedded Google Map iframe using your bakery's address once available.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-blush">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Follow Along</span>
+      <h2>More cakes on Instagram</h2>
+    </div>
+    <div class="insta-strip reveal">
+      <a href="https://instagram.com/nishbakes" target="_blank" rel="noopener">🍰</a>
+      <a href="https://instagram.com/nishbakes" target="_blank" rel="noopener">🧁</a>
+      <a href="https://instagram.com/nishbakes" target="_blank" rel="noopener">🍓</a>
+      <a href="https://instagram.com/nishbakes" target="_blank" rel="noopener">🎂</a>
+      <a href="https://instagram.com/nishbakes" target="_blank" rel="noopener">🍫</a>
+      <a href="https://instagram.com/nishbakes" target="_blank" rel="noopener">🍪</a>
+    </div>
+    <div class="insta-cta">
+      <a href="https://instagram.com/nishbakes" target="_blank" rel="noopener" class="insta-handle">📷 @nishbakes on Instagram</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="footer-logo">Nish Bakes.</span>
+        <p>Handcrafted cakes and desserts, baked fresh with love in every layer.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/nishbakes" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="tel:+919876543210" aria-label="Call">📞</a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html">Order a Cake</a></li>
+          <li><a href="menu.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit Us</h4>
+        <p>12 Bandra Bakers Lane, Mumbai, MH 400050</p>
+        <p>Open Tue–Sun · 10am – 8pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Nish Bakes. All rights reserved.</span>
+      <span>Made with 🩷 and a little flour dust.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

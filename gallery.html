@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Nish Bakes</title>
+<meta name="description" content="Browse photos of Nish Bakes' custom cakes, cupcakes and desserts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">Nish Bakes<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-outline">Order Now</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Cake Gallery</span>
+    <h1>A peek inside our cake box</h1>
+    <p class="breadcrumb"><a href="index.html">Home</a> / Gallery</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="filter-row reveal">
+      <button class="filter-pill active" data-filter="all">All</button>
+      <button class="filter-pill" data-filter="cakes">Cakes</button>
+      <button class="filter-pill" data-filter="cupcakes">Cupcakes</button>
+      <button class="filter-pill" data-filter="desserts">Desserts &amp; Jars</button>
+    </div>
+
+    <div class="gallery-grid reveal">
+      <div class="g-item tall wide" data-category="cakes" data-label="Rose Velvet Tier" data-desc="Rose-infused sponge with hand-piped buttercream petals.">🎂</div>
+      <div class="g-item" data-category="desserts" data-label="Choco Truffle Jar" data-desc="Layered dark chocolate mousse in a keepsake jar.">🍫</div>
+      <div class="g-item" data-category="desserts" data-label="Lotus Biscoff" data-desc="Caramelised biscuit crumble over vanilla mousse.">🍪</div>
+      <div class="g-item wide" data-category="cupcakes" data-label="Pink Ombre Cupcakes" data-desc="Buttercream swirls fading from blush to hot pink.">🧁</div>
+      <div class="g-item" data-category="desserts" data-label="Strawberry Tart" data-desc="Buttery shell filled with vanilla custard and berries.">🍓</div>
+      <div class="g-item" data-category="cakes" data-label="Red Velvet Classic" data-desc="Cocoa crumb finish with cream cheese frosting.">🎂</div>
+      <div class="g-item" data-category="cupcakes" data-label="Rainbow Sprinkle Cups" data-desc="Vanilla cupcakes topped with a rainbow of sprinkles.">🧁</div>
+      <div class="g-item wide" data-category="cakes" data-label="Pistachio Rose Cake" data-desc="Pistachio praline crunch with rose gold accents.">🎂</div>
+      <div class="g-item" data-category="desserts" data-label="Banana Walnut Loaf" data-desc="Moist banana bread studded with toasted walnuts.">🍌</div>
+      <div class="g-item" data-category="cupcakes" data-label="Choco Fudge Cups" data-desc="Rich cocoa cupcakes with a fudge centre.">🧁</div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-blush">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <h2>See a design you love?</h2>
+      <p>Send us the photo and we'll recreate it — or make it even sweeter.</p>
+      <a href="contact.html" class="btn btn-primary">Order This Look →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" aria-label="Close">✕</button>
+    <div class="big-emoji">🎂</div>
+    <h3 class="lb-title">Rose Velvet Tier</h3>
+    <p class="lb-desc">A little slice of joy, baked fresh in our kitchen.</p>
+    <a href="contact.html" class="btn btn-primary btn-block">Order Something Like This</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="footer-logo">Nish Bakes.</span>
+        <p>Handcrafted cakes and desserts, baked fresh with love in every layer.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/nishbakes" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="tel:+919876543210" aria-label="Call">📞</a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html">Order a Cake</a></li>
+          <li><a href="menu.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit Us</h4>
+        <p>12 Bandra Bakers Lane, Mumbai, MH 400050</p>
+        <p>Open Tue–Sun · 10am – 8pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Nish Bakes. All rights reserved.</span>
+      <span>Made with 🩷 and a little flour dust.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
